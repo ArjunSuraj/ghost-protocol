@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 
 interface BreachResult {
   sources: string[];
-  has_password?: boolean;
+  hash_password?: boolean;
   password?: string;
   sha1?: string;
 }
@@ -36,11 +36,12 @@ export async function POST(request: Request) {
     }
 
     const response = await fetch(
-      `https://breachdirectory.p.rapidapi.com/?query=${encodeURIComponent(email)}&type=email`,
+      `https://breachdirectory.p.rapidapi.com/?func=auto&term=${encodeURIComponent(email)}`,
       {
         headers: {
           "X-RapidAPI-Key": apiKey,
           "X-RapidAPI-Host": "breachdirectory.p.rapidapi.com",
+          "Content-Type": "application/json",
         },
       }
     );
@@ -61,14 +62,17 @@ export async function POST(request: Request) {
 
     const data: BreachDirectoryResponse = await response.json();
 
-    if (!data.success || !data.result) {
+    if (!data.success || !data.result || !Array.isArray(data.result)) {
       return NextResponse.json({
         breaches: 0,
         sources: [],
       });
     }
 
-    const sources = data.result.flatMap((r) => r.sources).filter((s, i, a) => a.indexOf(s) === i);
+    const sources = data.result
+      .flatMap((r) => r.sources)
+      .filter((s): s is string => typeof s === "string" && s !== "Unknown")
+      .filter((s, i, a) => a.indexOf(s) === i);
 
     return NextResponse.json({
       breaches: data.found,
