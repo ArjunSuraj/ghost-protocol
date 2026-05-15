@@ -122,14 +122,15 @@ export default function Scanner() {
         warning: data.warning || null,
         dorkLinks: generateDorkLinks(name, email),
       });
-    } catch {
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Unknown error";
       setResult({
         breaches: 0,
         riskLevel: "low",
         sources: [],
         details: [],
         passwordExposed: 0,
-        warning: "Scan service unavailable. Use Google Dork links below.",
+        warning: message,
         dorkLinks: generateDorkLinks(name, email),
       });
     } finally {

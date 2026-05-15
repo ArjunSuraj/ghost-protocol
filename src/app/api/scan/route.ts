@@ -59,8 +59,14 @@ export async function POST(request: Request) {
           warning: "Rate limited. Showing Google Dork links only.",
         });
       }
+      if (response.status === 401 || response.status === 403) {
+        return NextResponse.json(
+          { error: "Invalid API key or not subscribed. Get a free key at rapidapi.com" },
+          { status: response.status }
+        );
+      }
       return NextResponse.json(
-        { error: "Breach check failed" },
+        { error: `BreachDirectory API error (${response.status})` },
         { status: response.status }
       );
     }
