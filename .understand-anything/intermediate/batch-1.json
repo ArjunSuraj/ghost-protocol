@@ -1,0 +1,963 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 18,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/app/api/scan/route.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 111,
+      "nonEmptyLines": 97,
+      "functions": [
+        {
+          "name": "POST",
+          "startLine": 17,
+          "endLine": 111,
+          "params": [
+            "request"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "POST",
+          "line": 17,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "POST",
+          "callee": "request.json",
+          "lineNumber": 19
+        },
+        {
+          "caller": "POST",
+          "callee": "email.includes",
+          "lineNumber": 22
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 23
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 32
+        },
+        {
+          "caller": "POST",
+          "callee": "fetch",
+          "lineNumber": 41
+        },
+        {
+          "caller": "POST",
+          "callee": "encodeURIComponent",
+          "lineNumber": 42
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 54
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 63
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 68
+        },
+        {
+          "caller": "POST",
+          "callee": "response.json",
+          "lineNumber": 74
+        },
+        {
+          "caller": "POST",
+          "callee": "Array.isArray",
+          "lineNumber": 76
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 77
+        },
+        {
+          "caller": "POST",
+          "callee": "data.result\n      .flatMap((r) => r.sources)\n      .filter((s): s is string => typeof s === \"string\" && s !== \"Unknown\")\n      .filter",
+          "lineNumber": 85
+        },
+        {
+          "caller": "POST",
+          "callee": "data.result\n      .flatMap((r) => r.sources)\n      .filter",
+          "lineNumber": 85
+        },
+        {
+          "caller": "POST",
+          "callee": "data.result\n      .flatMap",
+          "lineNumber": 85
+        },
+        {
+          "caller": "POST",
+          "callee": "a.indexOf",
+          "lineNumber": 88
+        },
+        {
+          "caller": "POST",
+          "callee": "data.result.filter",
+          "lineNumber": 90
+        },
+        {
+          "caller": "POST",
+          "callee": "data.result.map",
+          "lineNumber": 92
+        },
+        {
+          "caller": "POST",
+          "callee": "r.sources.filter",
+          "lineNumber": 93
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 99
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 106
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/app/api/waitlist/route.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 46,
+      "nonEmptyLines": 40,
+      "functions": [
+        {
+          "name": "POST",
+          "startLine": 4,
+          "endLine": 46,
+          "params": [
+            "request"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "POST",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "POST",
+          "callee": "request.json",
+          "lineNumber": 6
+        },
+        {
+          "caller": "POST",
+          "callee": "email.includes",
+          "lineNumber": 9
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 10
+        },
+        {
+          "caller": "POST",
+          "callee": "initDb",
+          "lineNumber": 16
+        },
+        {
+          "caller": "POST",
+          "callee": "query",
+          "lineNumber": 19
+        },
+        {
+          "caller": "POST",
+          "callee": "err.message.includes",
+          "lineNumber": 24
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 25
+        },
+        {
+          "caller": "POST",
+          "callee": "console.log",
+          "lineNumber": 33
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 35
+        },
+        {
+          "caller": "POST",
+          "callee": "console.error",
+          "lineNumber": 40
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 41
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/app/favicon.ico",
+      "language": "image",
+      "fileCategory": "image",
+      "totalLines": 31,
+      "nonEmptyLines": 31,
+      "metrics": {}
+    },
+    {
+      "path": "src/app/globals.css",
+      "language": "css",
+      "fileCategory": "stylesheet",
+      "totalLines": 128,
+      "nonEmptyLines": 110,
+      "metrics": {}
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 41,
+      "nonEmptyLines": 37,
+      "functions": [
+        {
+          "name": "RootLayout",
+          "startLine": 28,
+          "endLine": 41,
+          "params": [
+            "{\n  children,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "metadata",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "RootLayout",
+          "line": 28,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/app/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 23,
+      "nonEmptyLines": 22,
+      "functions": [
+        {
+          "name": "Home",
+          "startLine": 9,
+          "endLine": 23,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Home",
+          "line": 9,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/Features.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 81,
+      "nonEmptyLines": 77,
+      "functions": [
+        {
+          "name": "Features",
+          "startLine": 39,
+          "endLine": 81,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Features",
+          "line": 39,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Features",
+          "callee": "features.map",
+          "lineNumber": 59
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/Footer.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 110,
+      "nonEmptyLines": 104,
+      "functions": [
+        {
+          "name": "GithubIcon",
+          "startLine": 3,
+          "endLine": 8,
+          "params": []
+        },
+        {
+          "name": "XIcon",
+          "startLine": 10,
+          "endLine": 15,
+          "params": []
+        },
+        {
+          "name": "Footer",
+          "startLine": 17,
+          "endLine": 110,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Footer",
+          "line": 17,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/Hero.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 91,
+      "nonEmptyLines": 83,
+      "functions": [
+        {
+          "name": "Hero",
+          "startLine": 6,
+          "endLine": 91,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Hero",
+          "line": 6,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/HowItWorks.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 75,
+      "functions": [
+        {
+          "name": "HowItWorks",
+          "startLine": 33,
+          "endLine": 82,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "HowItWorks",
+          "line": 33,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "HowItWorks",
+          "callee": "steps.map",
+          "lineNumber": 52
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/Navbar.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 108,
+      "nonEmptyLines": 101,
+      "functions": [
+        {
+          "name": "Navbar",
+          "startLine": 7,
+          "endLine": 108,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Navbar",
+          "line": 7,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Navbar",
+          "callee": "useState",
+          "lineNumber": 8
+        },
+        {
+          "caller": "Navbar",
+          "callee": "useState",
+          "lineNumber": 9
+        },
+        {
+          "caller": "Navbar",
+          "callee": "useEffect",
+          "lineNumber": 11
+        },
+        {
+          "caller": "handleScroll",
+          "callee": "setScrolled",
+          "lineNumber": 12
+        },
+        {
+          "caller": "Navbar",
+          "callee": "window.addEventListener",
+          "lineNumber": 13
+        },
+        {
+          "caller": "Navbar",
+          "callee": "window.removeEventListener",
+          "lineNumber": 14
+        },
+        {
+          "caller": "Navbar",
+          "callee": "setIsOpen",
+          "lineNumber": 55
+        },
+        {
+          "caller": "Navbar",
+          "callee": "setIsOpen",
+          "lineNumber": 76
+        },
+        {
+          "caller": "Navbar",
+          "callee": "setIsOpen",
+          "lineNumber": 83
+        },
+        {
+          "caller": "Navbar",
+          "callee": "setIsOpen",
+          "lineNumber": 90
+        },
+        {
+          "caller": "Navbar",
+          "callee": "setIsOpen",
+          "lineNumber": 97
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/Scanner.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 456,
+      "nonEmptyLines": 426,
+      "functions": [
+        {
+          "name": "Scanner",
+          "startLine": 38,
+          "endLine": 456,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Scanner",
+          "line": 38,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Scanner",
+          "callee": "useState",
+          "lineNumber": 39
+        },
+        {
+          "caller": "Scanner",
+          "callee": "useState",
+          "lineNumber": 40
+        },
+        {
+          "caller": "Scanner",
+          "callee": "useState",
+          "lineNumber": 41
+        },
+        {
+          "caller": "Scanner",
+          "callee": "useState",
+          "lineNumber": 42
+        },
+        {
+          "caller": "Scanner",
+          "callee": "useState",
+          "lineNumber": 43
+        },
+        {
+          "caller": "Scanner",
+          "callee": "useState",
+          "lineNumber": 44
+        },
+        {
+          "caller": "generateDorkLinks",
+          "callee": "encodeURIComponent",
+          "lineNumber": 49
+        },
+        {
+          "caller": "generateDorkLinks",
+          "callee": "encodeURIComponent",
+          "lineNumber": 53
+        },
+        {
+          "caller": "generateDorkLinks",
+          "callee": "encodeURIComponent",
+          "lineNumber": 53
+        },
+        {
+          "caller": "generateDorkLinks",
+          "callee": "encodeURIComponent",
+          "lineNumber": 57
+        },
+        {
+          "caller": "generateDorkLinks",
+          "callee": "encodeURIComponent",
+          "lineNumber": 61
+        },
+        {
+          "caller": "generateDorkLinks",
+          "callee": "encodeURIComponent",
+          "lineNumber": 65
+        },
+        {
+          "caller": "generateDorkLinks",
+          "callee": "encodeURIComponent",
+          "lineNumber": 69
+        },
+        {
+          "caller": "toggleBreach",
+          "callee": "setExpandedBreaches",
+          "lineNumber": 74
+        },
+        {
+          "caller": "toggleBreach",
+          "callee": "next.has",
+          "lineNumber": 76
+        },
+        {
+          "caller": "toggleBreach",
+          "callee": "next.delete",
+          "lineNumber": 76
+        },
+        {
+          "caller": "toggleBreach",
+          "callee": "next.add",
+          "lineNumber": 77
+        },
+        {
+          "caller": "handleScan",
+          "callee": "e.preventDefault",
+          "lineNumber": 83
+        },
+        {
+          "caller": "handleScan",
+          "callee": "setError",
+          "lineNumber": 84
+        },
+        {
+          "caller": "handleScan",
+          "callee": "setResult",
+          "lineNumber": 85
+        },
+        {
+          "caller": "handleScan",
+          "callee": "setExpandedBreaches",
+          "lineNumber": 86
+        },
+        {
+          "caller": "handleScan",
+          "callee": "name.trim",
+          "lineNumber": 88
+        },
+        {
+          "caller": "handleScan",
+          "callee": "email.trim",
+          "lineNumber": 88
+        },
+        {
+          "caller": "handleScan",
+          "callee": "setError",
+          "lineNumber": 89
+        },
+        {
+          "caller": "handleScan",
+          "callee": "email.includes",
+          "lineNumber": 93
+        },
+        {
+          "caller": "handleScan",
+          "callee": "setError",
+          "lineNumber": 94
+        },
+        {
+          "caller": "handleScan",
+          "callee": "setLoading",
+          "lineNumber": 98
+        },
+        {
+          "caller": "handleScan",
+          "callee": "fetch",
+          "lineNumber": 101
+        },
+        {
+          "caller": "handleScan",
+          "callee": "JSON.stringify",
+          "lineNumber": 104
+        },
+        {
+          "caller": "handleScan",
+          "callee": "response.json",
+          "lineNumber": 107
+        },
+        {
+          "caller": "handleScan",
+          "callee": "setResult",
+          "lineNumber": 116
+        },
+        {
+          "caller": "handleScan",
+          "callee": "generateDorkLinks",
+          "lineNumber": 123
+        },
+        {
+          "caller": "handleScan",
+          "callee": "setResult",
+          "lineNumber": 127
+        },
+        {
+          "caller": "handleScan",
+          "callee": "generateDorkLinks",
+          "lineNumber": 134
+        },
+        {
+          "caller": "handleScan",
+          "callee": "setLoading",
+          "lineNumber": 137
+        },
+        {
+          "caller": "Scanner",
+          "callee": "setName",
+          "lineNumber": 193
+        },
+        {
+          "caller": "Scanner",
+          "callee": "setEmail",
+          "lineNumber": 206
+        },
+        {
+          "caller": "Scanner",
+          "callee": "(() => {\n                    const RiskIcon = riskIcons[result.riskLevel];\n                    return <RiskIcon className={`w-6 h-6 ${riskColors[result.riskLevel]}`} />;\n                  })",
+          "lineNumber": 248
+        },
+        {
+          "caller": "Scanner",
+          "callee": "result.sources.map",
+          "lineNumber": 298
+        },
+        {
+          "caller": "Scanner",
+          "callee": "result.details.map",
+          "lineNumber": 316
+        },
+        {
+          "caller": "Scanner",
+          "callee": "toggleBreach",
+          "lineNumber": 319
+        },
+        {
+          "caller": "Scanner",
+          "callee": "detail.sources.map",
+          "lineNumber": 325
+        },
+        {
+          "caller": "Scanner",
+          "callee": "expandedBreaches.has",
+          "lineNumber": 340
+        },
+        {
+          "caller": "Scanner",
+          "callee": "expandedBreaches.has",
+          "lineNumber": 349
+        },
+        {
+          "caller": "Scanner",
+          "callee": "result.dorkLinks.map",
+          "lineNumber": 420
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/Waitlist.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 125,
+      "nonEmptyLines": 110,
+      "functions": [
+        {
+          "name": "Waitlist",
+          "startLine": 7,
+          "endLine": 125,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Waitlist",
+          "line": 7,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Waitlist",
+          "callee": "useState",
+          "lineNumber": 8
+        },
+        {
+          "caller": "Waitlist",
+          "callee": "useState",
+          "lineNumber": 9
+        },
+        {
+          "caller": "Waitlist",
+          "callee": "useState",
+          "lineNumber": 10
+        },
+        {
+          "caller": "Waitlist",
+          "callee": "useState",
+          "lineNumber": 11
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "e.preventDefault",
+          "lineNumber": 14
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setStatus",
+          "lineNumber": 15
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "email.trim",
+          "lineNumber": 17
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "email.includes",
+          "lineNumber": 17
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setStatus",
+          "lineNumber": 18
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setMessage",
+          "lineNumber": 19
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setLoading",
+          "lineNumber": 23
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "fetch",
+          "lineNumber": 26
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "JSON.stringify",
+          "lineNumber": 29
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "response.json",
+          "lineNumber": 32
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setStatus",
+          "lineNumber": 38
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setMessage",
+          "lineNumber": 39
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setEmail",
+          "lineNumber": 40
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setStatus",
+          "lineNumber": 42
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setMessage",
+          "lineNumber": 43
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setLoading",
+          "lineNumber": 45
+        },
+        {
+          "caller": "Waitlist",
+          "callee": "setEmail",
+          "lineNumber": 75
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/file.svg",
+      "language": "svg",
+      "fileCategory": "image",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": "public/globe.svg",
+      "language": "svg",
+      "fileCategory": "image",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": "public/next.svg",
+      "language": "svg",
+      "fileCategory": "image",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": "public/vercel.svg",
+      "language": "svg",
+      "fileCategory": "image",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": "public/window.svg",
+      "language": "svg",
+      "fileCategory": "image",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    }
+  ]
+}

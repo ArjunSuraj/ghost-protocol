@@ -1,7 +1,15 @@
 import { Pool } from "pg";
 
+const connectionString = process.env.DATABASE_URL;
+
+if (!connectionString) {
+  console.error("[DB] DATABASE_URL is not set");
+} else {
+  console.log("[DB] Connecting to:", connectionString.split("@")[1]?.split("/")[0] || "unknown");
+}
+
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
+  connectionString,
   ssl: process.env.NODE_ENV === "production" ? { rejectUnauthorized: false } : false,
 });
 

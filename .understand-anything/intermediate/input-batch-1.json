@@ -1,0 +1,44 @@
+{
+  "projectRoot": "/Users/macbook/ghost-protocol",
+  "batchFiles": [
+    { "path": "src/app/api/scan/route.ts", "language": "typescript", "sizeLines": 112, "fileCategory": "code" },
+    { "path": "src/app/api/waitlist/route.ts", "language": "typescript", "sizeLines": 35, "fileCategory": "code" },
+    { "path": "src/app/favicon.ico", "language": "image", "sizeLines": 31, "fileCategory": "image" },
+    { "path": "src/app/globals.css", "language": "css", "sizeLines": 129, "fileCategory": "stylesheet" },
+    { "path": "src/app/layout.tsx", "language": "typescript", "sizeLines": 42, "fileCategory": "code" },
+    { "path": "src/app/page.tsx", "language": "typescript", "sizeLines": 24, "fileCategory": "code" },
+    { "path": "src/components/Features.tsx", "language": "typescript", "sizeLines": 82, "fileCategory": "code" },
+    { "path": "src/components/Footer.tsx", "language": "typescript", "sizeLines": 111, "fileCategory": "code" },
+    { "path": "src/components/Hero.tsx", "language": "typescript", "sizeLines": 92, "fileCategory": "code" },
+    { "path": "src/components/HowItWorks.tsx", "language": "typescript", "sizeLines": 83, "fileCategory": "code" },
+    { "path": "src/components/Navbar.tsx", "language": "typescript", "sizeLines": 109, "fileCategory": "code" },
+    { "path": "src/components/Scanner.tsx", "language": "typescript", "sizeLines": 457, "fileCategory": "code" },
+    { "path": "src/components/Waitlist.tsx", "language": "typescript", "sizeLines": 126, "fileCategory": "code" },
+    { "path": "public/file.svg", "language": "svg", "sizeLines": 1, "fileCategory": "image" },
+    { "path": "public/globe.svg", "language": "svg", "sizeLines": 1, "fileCategory": "image" },
+    { "path": "public/next.svg", "language": "svg", "sizeLines": 1, "fileCategory": "image" },
+    { "path": "public/vercel.svg", "language": "svg", "sizeLines": 1, "fileCategory": "image" },
+    { "path": "public/window.svg", "language": "svg", "sizeLines": 1, "fileCategory": "image" }
+  ],
+  "batchImportData": {
+    "src/app/api/scan/route.ts": ["next/server"],
+    "src/app/api/waitlist/route.ts": ["next/server"],
+    "src/app/layout.tsx": ["next", "next/font/google"],
+    "src/app/page.tsx": [
+      "@/components/Navbar",
+      "@/components/Hero",
+      "@/components/Scanner",
+      "@/components/Features",
+      "@/components/HowItWorks",
+      "@/components/Waitlist",
+      "@/components/Footer"
+    ],
+    "src/components/Features.tsx": ["framer-motion", "lucide-react"],
+    "src/components/Footer.tsx": ["lucide-react"],
+    "src/components/Hero.tsx": ["framer-motion", "lucide-react"],
+    "src/components/HowItWorks.tsx": ["framer-motion", "lucide-react"],
+    "src/components/Navbar.tsx": ["react", "lucide-react", "framer-motion"],
+    "src/components/Scanner.tsx": ["react", "framer-motion"],
+    "src/components/Waitlist.tsx": ["react", "framer-motion", "lucide-react"]
+  }
+}

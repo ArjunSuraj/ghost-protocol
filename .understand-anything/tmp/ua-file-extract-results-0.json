@@ -1,0 +1,514 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 14,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".gitignore",
+      "language": "unknown",
+      "fileCategory": "config",
+      "totalLines": 41,
+      "nonEmptyLines": 32,
+      "metrics": {}
+    },
+    {
+      "path": ".nvmrc",
+      "language": "unknown",
+      "fileCategory": "config",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 36,
+      "nonEmptyLines": 23,
+      "sections": [
+        {
+          "heading": "Getting Started",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Learn More",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "Deploy on Vercel",
+          "level": 2,
+          "line": 32
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 38,
+      "nonEmptyLines": 38,
+      "sections": [
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "version",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "private",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "engines",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "scripts",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "dependencies",
+          "level": 1,
+          "line": 14
+        },
+        {
+          "heading": "devDependencies",
+          "level": 1,
+          "line": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "package-lock.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 6985,
+      "nonEmptyLines": 6985,
+      "sections": [
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "version",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "lockfileVersion",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "requires",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "packages",
+          "level": 1,
+          "line": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "tsconfig.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 34,
+      "nonEmptyLines": 34,
+      "sections": [
+        {
+          "heading": "compilerOptions",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "include",
+          "level": 1,
+          "line": 25
+        },
+        {
+          "heading": "exclude",
+          "level": 1,
+          "line": 33
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "next.config.ts",
+      "language": "typescript",
+      "fileCategory": "config",
+      "totalLines": 7,
+      "nonEmptyLines": 5,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "postcss.config.mjs",
+      "language": "javascript",
+      "fileCategory": "config",
+      "totalLines": 7,
+      "nonEmptyLines": 6,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "eslint.config.mjs",
+      "language": "javascript",
+      "fileCategory": "config",
+      "totalLines": 18,
+      "nonEmptyLines": 16,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "railway.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 13,
+      "nonEmptyLines": 13,
+      "sections": [
+        {
+          "heading": "$schema",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "build",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "deploy",
+          "level": 1,
+          "line": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "plan.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 96,
+      "nonEmptyLines": 83,
+      "sections": [
+        {
+          "heading": "GhostProtocol: AI-Powered Digital Footprint Erasure",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "1. Project Overview",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "2. Target Audience",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "3. Tech Stack",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "4. Product Phases",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Phase 1: Validation MVP (Weeks 1-2)",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "Phase 2: Core Product (Weeks 3-6)",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "Phase 3: Automation & Scale (Weeks 7-12)",
+          "level": 3,
+          "line": 53
+        },
+        {
+          "heading": "5. File Structure",
+          "level": 2,
+          "line": 60
+        },
+        {
+          "heading": "6. Immediate Next Steps",
+          "level": 2,
+          "line": 80
+        },
+        {
+          "heading": "7. Risks & Mitigation",
+          "level": 2,
+          "line": 87
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "AGENTS.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "This is NOT the Next.js you know",
+          "level": 1,
+          "line": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "CLAUDE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 292,
+      "nonEmptyLines": 212,
+      "sections": [
+        {
+          "heading": "ui-ux-pro-max",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "Prerequisites",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "How to Use This Skill",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "Step 1: Analyze User Requirements",
+          "level": 3,
+          "line": 40
+        },
+        {
+          "heading": "Step 2: Generate Design System (REQUIRED)",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "Step 2b: Persist Design System (Master + Overrides Pattern)",
+          "level": 3,
+          "line": 67
+        },
+        {
+          "heading": "Step 3: Supplement with Detailed Searches (as needed)",
+          "level": 3,
+          "line": 92
+        },
+        {
+          "heading": "Step 4: Stack Guidelines (Default: html-tailwind)",
+          "level": 3,
+          "line": 110
+        },
+        {
+          "heading": "Search Reference",
+          "level": 2,
+          "line": 122
+        },
+        {
+          "heading": "Available Domains",
+          "level": 3,
+          "line": 124
+        },
+        {
+          "heading": "Available Stacks",
+          "level": 3,
+          "line": 139
+        },
+        {
+          "heading": "Example Workflow",
+          "level": 2,
+          "line": 156
+        },
+        {
+          "heading": "Step 1: Analyze Requirements",
+          "level": 3,
+          "line": 160
+        },
+        {
+          "heading": "Step 2: Generate Design System (REQUIRED)",
+          "level": 3,
+          "line": 166
+        },
+        {
+          "heading": "Step 3: Supplement with Detailed Searches (as needed)",
+          "level": 3,
+          "line": 174
+        },
+        {
+          "heading": "Step 4: Stack Guidelines",
+          "level": 3,
+          "line": 184
+        },
+        {
+          "heading": "Output Formats",
+          "level": 2,
+          "line": 194
+        },
+        {
+          "heading": "Tips for Better Results",
+          "level": 2,
+          "line": 208
+        },
+        {
+          "heading": "Common Rules for Professional UI",
+          "level": 2,
+          "line": 219
+        },
+        {
+          "heading": "Icons & Visual Elements",
+          "level": 3,
+          "line": 223
+        },
+        {
+          "heading": "Interaction & Cursor",
+          "level": 3,
+          "line": 232
+        },
+        {
+          "heading": "Light/Dark Mode Contrast",
+          "level": 3,
+          "line": 240
+        },
+        {
+          "heading": "Layout & Spacing",
+          "level": 3,
+          "line": 249
+        },
+        {
+          "heading": "Pre-Delivery Checklist",
+          "level": 2,
+          "line": 259
+        },
+        {
+          "heading": "Visual Quality",
+          "level": 3,
+          "line": 263
+        },
+        {
+          "heading": "Interaction",
+          "level": 3,
+          "line": 270
+        },
+        {
+          "heading": "Light/Dark Mode",
+          "level": 3,
+          "line": 276
+        },
+        {
+          "heading": "Layout",
+          "level": 3,
+          "line": 282
+        },
+        {
+          "heading": "Accessibility",
+          "level": 3,
+          "line": 288
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 29
+      }
+    }
+  ]
+}
