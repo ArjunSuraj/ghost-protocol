@@ -5,6 +5,7 @@ interface BreachResult {
   hash_password?: boolean;
   password?: string;
   sha1?: string;
+  email?: string;
 }
 
 interface BreachDirectoryResponse {
@@ -31,6 +32,8 @@ export async function POST(request: Request) {
       return NextResponse.json({
         breaches: 0,
         sources: [],
+        details: [],
+        passwordExposed: 0,
         warning: "BREACHDIRECTORY_API_KEY not configured. Showing Google Dork links only.",
       });
     }
@@ -51,6 +54,8 @@ export async function POST(request: Request) {
         return NextResponse.json({
           breaches: 0,
           sources: [],
+          details: [],
+          passwordExposed: 0,
           warning: "Rate limited. Showing Google Dork links only.",
         });
       }
@@ -66,6 +71,8 @@ export async function POST(request: Request) {
       return NextResponse.json({
         breaches: 0,
         sources: [],
+        details: [],
+        passwordExposed: 0,
       });
     }
 
@@ -74,9 +81,20 @@ export async function POST(request: Request) {
       .filter((s): s is string => typeof s === "string" && s !== "Unknown")
       .filter((s, i, a) => a.indexOf(s) === i);
 
+    const passwordExposed = data.result.filter((r) => r.hash_password).length;
+
+    const details = data.result.map((r) => ({
+      sources: r.sources.filter((s) => s !== "Unknown"),
+      hashPassword: r.hash_password || false,
+      password: r.password || null,
+      sha1: r.sha1 || null,
+    }));
+
     return NextResponse.json({
       breaches: data.found,
       sources,
+      details,
+      passwordExposed,
     });
   } catch {
     return NextResponse.json(
