@@ -1,0 +1,90 @@
+{
+  "projectRoot": "/Users/macbook/ghost-protocol",
+  "batchFiles": [
+    {
+      "path": ".gitignore",
+      "lines": 42,
+      "language": "unknown",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".nvmrc",
+      "lines": 2,
+      "language": "unknown",
+      "fileCategory": "config"
+    },
+    {
+      "path": "README.md",
+      "lines": 37,
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "package.json",
+      "lines": 37,
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "package-lock.json",
+      "lines": 6826,
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "tsconfig.json",
+      "lines": 35,
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "next.config.ts",
+      "lines": 8,
+      "language": "typescript",
+      "fileCategory": "config"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "lines": 8,
+      "language": "javascript",
+      "fileCategory": "config"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "lines": 19,
+      "language": "javascript",
+      "fileCategory": "config"
+    },
+    {
+      "path": "railway.json",
+      "lines": 14,
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "plan.md",
+      "lines": 97,
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "AGENTS.md",
+      "lines": 6,
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "CLAUDE.md",
+      "lines": 2,
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/SKILL.md",
+      "lines": 293,
+      "language": "markdown",
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {}
+}

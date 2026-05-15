@@ -1,0 +1,545 @@
+{
+  "project": {
+    "name": "ghost-protocol",
+    "root": "/Users/macbook/ghost-protocol",
+    "packageManager": "npm",
+    "engines": {
+      "node": ">=20.0.0"
+    }
+  },
+  "analysis": {
+    "totalFiles": 62,
+    "sourceFiles": 14,
+    "testFiles": 0,
+    "totalLines": 12143,
+    "languages": [
+      "CSS",
+      "Image",
+      "JSON",
+      "JavaScript",
+      "Markdown",
+      "Python",
+      "SVG",
+      "TypeScript",
+      "Unknown"
+    ],
+    "languageBreakdown": {
+      "Unknown": 29,
+      "Markdown": 5,
+      "Python": 3,
+      "JavaScript": 2,
+      "TypeScript": 12,
+      "JSON": 4,
+      "SVG": 5,
+      "Image": 1,
+      "CSS": 1
+    },
+    "categories": {
+      "other": 32,
+      "documentation": 5,
+      "config": 7,
+      "asset": 5,
+      "source": 13
+    },
+    "complexity": "medium",
+    "frameworks": [
+      "Next.js",
+      "React"
+    ]
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 42,
+      "size": 0
+    },
+    {
+      "path": ".nvmrc",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 2,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/SKILL.md",
+      "language": "Markdown",
+      "category": "documentation",
+      "lines": 293,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/charts.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 27,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/colors.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 98,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/icons.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 102,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/landing.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 32,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/products.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 97,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/react-performance.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 46,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/stacks/astro.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 55,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/stacks/flutter.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 54,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 57,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 54,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/stacks/nextjs.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 54,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 52,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 60,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/stacks/react-native.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 53,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/stacks/react.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 55,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/stacks/shadcn.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 62,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/stacks/svelte.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 55,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/stacks/swiftui.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 52,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/stacks/vue.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 51,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/styles.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 69,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/typography.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 58,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/ui-reasoning.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 102,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/ux-guidelines.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 100,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/data/web-interface.csv",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 32,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/scripts/__pycache__/core.cpython-314.pyc",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 78,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/scripts/__pycache__/design_system.cpython-314.pyc",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 242,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/scripts/__pycache__/search.cpython-314.pyc",
+      "language": "Unknown",
+      "category": "other",
+      "lines": 45,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "language": "Python",
+      "category": "other",
+      "lines": 254,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "language": "Python",
+      "category": "other",
+      "lines": 1068,
+      "size": 0
+    },
+    {
+      "path": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "language": "Python",
+      "category": "other",
+      "lines": 115,
+      "size": 0
+    },
+    {
+      "path": "AGENTS.md",
+      "language": "Markdown",
+      "category": "documentation",
+      "lines": 6,
+      "size": 0
+    },
+    {
+      "path": "CLAUDE.md",
+      "language": "Markdown",
+      "category": "documentation",
+      "lines": 2,
+      "size": 0
+    },
+    {
+      "path": "README.md",
+      "language": "Markdown",
+      "category": "documentation",
+      "lines": 37,
+      "size": 0
+    },
+    {
+      "path": "eslint.config.mjs",
+      "language": "JavaScript",
+      "category": "config",
+      "lines": 19,
+      "size": 0
+    },
+    {
+      "path": "next.config.ts",
+      "language": "TypeScript",
+      "category": "config",
+      "lines": 8,
+      "size": 0
+    },
+    {
+      "path": "package-lock.json",
+      "language": "JSON",
+      "category": "config",
+      "lines": 6826,
+      "size": 0
+    },
+    {
+      "path": "package.json",
+      "language": "JSON",
+      "category": "config",
+      "lines": 37,
+      "size": 0
+    },
+    {
+      "path": "plan.md",
+      "language": "Markdown",
+      "category": "documentation",
+      "lines": 97,
+      "size": 0
+    },
+    {
+      "path": "postcss.config.mjs",
+      "language": "JavaScript",
+      "category": "config",
+      "lines": 8,
+      "size": 0
+    },
+    {
+      "path": "public/file.svg",
+      "language": "SVG",
+      "category": "asset",
+      "lines": 1,
+      "size": 0
+    },
+    {
+      "path": "public/globe.svg",
+      "language": "SVG",
+      "category": "asset",
+      "lines": 1,
+      "size": 0
+    },
+    {
+      "path": "public/next.svg",
+      "language": "SVG",
+      "category": "asset",
+      "lines": 1,
+      "size": 0
+    },
+    {
+      "path": "public/vercel.svg",
+      "language": "SVG",
+      "category": "asset",
+      "lines": 1,
+      "size": 0
+    },
+    {
+      "path": "public/window.svg",
+      "language": "SVG",
+      "category": "asset",
+      "lines": 1,
+      "size": 0
+    },
+    {
+      "path": "railway.json",
+      "language": "JSON",
+      "category": "config",
+      "lines": 14,
+      "size": 0
+    },
+    {
+      "path": "src/app/api/scan/route.ts",
+      "language": "TypeScript",
+      "category": "source",
+      "lines": 112,
+      "size": 0
+    },
+    {
+      "path": "src/app/api/waitlist/route.ts",
+      "language": "TypeScript",
+      "category": "source",
+      "lines": 35,
+      "size": 0
+    },
+    {
+      "path": "src/app/favicon.ico",
+      "language": "Image",
+      "category": "source",
+      "lines": 31,
+      "size": 0
+    },
+    {
+      "path": "src/app/globals.css",
+      "language": "CSS",
+      "category": "source",
+      "lines": 129,
+      "size": 0
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "language": "TypeScript",
+      "category": "source",
+      "lines": 42,
+      "size": 0
+    },
+    {
+      "path": "src/app/page.tsx",
+      "language": "TypeScript",
+      "category": "source",
+      "lines": 24,
+      "size": 0
+    },
+    {
+      "path": "src/components/Features.tsx",
+      "language": "TypeScript",
+      "category": "source",
+      "lines": 82,
+      "size": 0
+    },
+    {
+      "path": "src/components/Footer.tsx",
+      "language": "TypeScript",
+      "category": "source",
+      "lines": 111,
+      "size": 0
+    },
+    {
+      "path": "src/components/Hero.tsx",
+      "language": "TypeScript",
+      "category": "source",
+      "lines": 92,
+      "size": 0
+    },
+    {
+      "path": "src/components/HowItWorks.tsx",
+      "language": "TypeScript",
+      "category": "source",
+      "lines": 83,
+      "size": 0
+    },
+    {
+      "path": "src/components/Navbar.tsx",
+      "language": "TypeScript",
+      "category": "source",
+      "lines": 109,
+      "size": 0
+    },
+    {
+      "path": "src/components/Scanner.tsx",
+      "language": "TypeScript",
+      "category": "source",
+      "lines": 457,
+      "size": 0
+    },
+    {
+      "path": "src/components/Waitlist.tsx",
+      "language": "TypeScript",
+      "category": "source",
+      "lines": 126,
+      "size": 0
+    },
+    {
+      "path": "tsconfig.json",
+      "language": "JSON",
+      "category": "config",
+      "lines": 35,
+      "size": 0
+    }
+  ],
+  "importMap": {
+    "eslint.config.mjs": [
+      "eslint/config",
+      "eslint-config-next/core-web-vitals",
+      "eslint-config-next/typescript"
+    ],
+    "next.config.ts": [
+      "next"
+    ],
+    "src/app/api/scan/route.ts": [
+      "next/server"
+    ],
+    "src/app/api/waitlist/route.ts": [
+      "next/server"
+    ],
+    "src/app/layout.tsx": [
+      "next",
+      "next/font/google"
+    ],
+    "src/app/page.tsx": [
+      "@/components/Navbar",
+      "@/components/Hero",
+      "@/components/Scanner",
+      "@/components/Features",
+      "@/components/HowItWorks",
+      "@/components/Waitlist",
+      "@/components/Footer"
+    ],
+    "src/components/Features.tsx": [
+      "framer-motion",
+      "lucide-react"
+    ],
+    "src/components/Footer.tsx": [
+      "lucide-react"
+    ],
+    "src/components/Hero.tsx": [
+      "framer-motion",
+      "lucide-react"
+    ],
+    "src/components/HowItWorks.tsx": [
+      "framer-motion",
+      "lucide-react"
+    ],
+    "src/components/Navbar.tsx": [
+      "react",
+      "lucide-react",
+      "framer-motion"
+    ],
+    "src/components/Scanner.tsx": [
+      "react",
+      "framer-motion"
+    ],
+    "src/components/Waitlist.tsx": [
+      "react",
+      "framer-motion",
+      "lucide-react"
+    ]
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app)."
+}
